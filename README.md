@@ -30,13 +30,6 @@ The nodes have been implemented with an `std::pair p` storing the key and the va
 
 All the methods requested have been implemented.
 
-
-```c++
-void balance();
-```
-
-Balance the tree. A simple and naive implementation is fine. The aim of this exam is not producing a super-performant code, but learning c++. No extra points for complicated algorithms.
-
 ##### Benchmark
 
 In the following the result for the test of the performances:
