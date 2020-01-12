@@ -36,10 +36,10 @@ In the following the result for the test of the performances:
 
 ![treeperformances.png](treeperformances.png)
 
-The non-balanced and balanced tree perform quite similar in the case of a tree with random integers. It is highly probable that, for the majority of the key searched, they cannot be found in the tree and the search mush traverse the whole tree. 
+The non-balanced and balanced tree perform quite similar in the case of a tree with random integers. It is highly probable that, for the majority of the key searched, they cannot be found in the tree and the search must traverse the whole tree. 
 
 std::map performs worse than the tree for large number of nodes.
 
-I expect, regarding the logarithmic behavior, a quite constant behavior for large number of nodes, which I can appreciate for the tree in the plot above.
+I expect, regarding the logarithmic behavior, a quite constant behavior for large number of nodes, which I can appreciate for the tree in the plot above. For small values of N is very noisy, and the error bars are very large. A clear interpretation of the trend in terms of  logarithm is not possible.
 
 
